@@ -13,6 +13,10 @@ SCTE 35 complements other Standards to complete the eco-systems.
 [SCTE 172] defines additional video coding and transport constraints on ANSI/SCTE 128 (which constrains ITU-T H.264/ ISO/IEC 14496-10 (“AVC”)
 video compression) for Digital Program Insertion applications using SCTE 35 messaging.
 
+1.2.  Scope
+
+This standard supports delivery of events, frame accurate or non-frame accurate, and associated descriptive data in MPEG-2 transport streams, MPEG-DASH and HLS. This standard supports the splicing of content (MPEG-2 transport streams, MPEG-DASH, etc.) for the purpose of Digital Program Insertion, which includes advertisement insertion and insertion of other content types. An in-stream messaging mechanism is defined to signal splicing and insertion opportunities and it is not intended to ensure seamless insertion (splicing, playlist, etc.). As such, this standard does not specify the insertion method used or constraints applied to the content being inserted, nor does it address constraints placed on insertion devices.
+
 
 
 
